@@ -428,5 +428,39 @@ width:100%;
 .noticia-texto{
 text-align:center;
 }
+  
+.artistas{
+padding:80px 20px;
+text-align:center;
+background:#111;
+}
 
+.artista-card{
+max-width:260px;
+margin:auto;
+background:#000;
+padding:20px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.artista-card:hover{
+transform:scale(1.05);
+}
+
+.artista-card img{
+width:100%;
+border-radius:10px;
+margin-bottom:10px;
+}
+
+.artista-redes a{
+color:white;
+font-size:24px;
+margin:0 10px;
+transition:0.3s;
+}
+
+.artista-redes a:hover{
+color:#ff5a00;
 }

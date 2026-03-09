@@ -291,3 +291,38 @@ transition:0.3s;
 color:#ff5a00;
 transform:scale(1.2);
 }
+/* FOOTER */
+
+footer{
+background:#0a0a0a;
+padding:50px 20px;
+text-align:center;
+border-top:2px solid #111;
+}
+
+.social-title{
+font-size:22px;
+margin-bottom:20px;
+letter-spacing:1px;
+}
+
+.social{
+margin-bottom:20px;
+}
+
+.social a{
+color:white;
+font-size:32px;
+margin:0 15px;
+transition:0.3s;
+}
+
+.social a:hover{
+color:#ff5a00;
+transform:scale(1.25);
+}
+
+footer p{
+font-size:14px;
+color:#aaa;
+}

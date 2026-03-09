@@ -235,3 +235,42 @@ grid-template-columns:1fr;
 }
 
 }
+/* MENU MOBILE */
+
+.menu-toggle{
+display:none;
+font-size:30px;
+cursor:pointer;
+}
+
+/* MOBILE */
+
+@media (max-width:768px){
+
+header{
+flex-direction:column;
+text-align:center;
+}
+
+.menu-toggle{
+display:block;
+margin-top:10px;
+}
+
+nav{
+display:none;
+flex-direction:column;
+background:#000;
+width:100%;
+}
+
+nav.active{
+display:flex;
+}
+
+nav a{
+padding:15px;
+border-top:1px solid #111;
+}
+
+}

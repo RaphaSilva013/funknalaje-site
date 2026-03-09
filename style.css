@@ -129,3 +129,37 @@ transition:0.3s;
 .card:hover{
 transform:scale(1.05);
 }
+.hero{
+background:url("banner.jpg") center/cover no-repeat;
+height:700px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
+margin-bottom:20px;
+}
+
+.btn{
+background:#ff6600;
+padding:15px 30px;
+border-radius:6px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#ff3300;
+}

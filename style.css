@@ -353,15 +353,18 @@ color:#ccc;
 .btn-noticia{
 display:inline-block;
 margin-top:15px;
-padding:10px 25px;
+padding:12px 28px;
 background:#ff5a00;
 color:white;
 text-decoration:none;
-border-radius:5px;
+border-radius:6px;
+font-weight:bold;
+transition:0.3s;
 }
 
 .btn-noticia:hover{
 background:#ff2a00;
+transform:scale(1.05);
 }
 /* NOTICIAS */
 

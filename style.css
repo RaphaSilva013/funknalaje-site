@@ -163,3 +163,41 @@ transition:0.3s;
 .btn:hover{
 background:#ff3300;
 }
+.hero{
+background:url("banner.jpg") center/cover no-repeat;
+height:700px;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.hero-text{
+background:rgba(0,0,0,0.5);
+padding:40px;
+border-radius:10px;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:20px;
+}
+
+.btn{
+background:#ff6600;
+padding:15px 30px;
+border-radius:5px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+.btn:hover{
+background:#ff3300;
+}

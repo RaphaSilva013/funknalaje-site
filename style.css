@@ -73,3 +73,25 @@ margin:0;
 font-size:14px;
 color:#ccc;
 }
+.logo{
+width:260px;
+height:auto;
+}
+header{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:20px 40px;
+background:#000;
+border-bottom:2px solid #111;
+}
+header h1{
+font-size:32px;
+margin:0;
+letter-spacing:2px;
+}
+header p{
+margin:0;
+color:#bbb;
+font-size:14px;
+}

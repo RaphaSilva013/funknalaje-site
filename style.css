@@ -51,7 +51,7 @@ color:#ff5a00;
 /* HERO BANNER */
 
 .hero{
-background:url("banner.png") center/cover no-repeat;
+background-image:url("banner.jpg");
 height:700px;
 display:flex;
 align-items:center;

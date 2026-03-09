@@ -46,21 +46,12 @@ footer {
     background-color: #000;
     margin-top: 50px;
 }
-.logo{
-width:260px;
-display:block;
-margin:20px auto;
-}
 header{
 display:flex;
 align-items:center;
 justify-content:space-between;
 padding:15px 40px;
 background:black;
-}
-
-.logo{
-width:120px;
 }
 
 header h1{

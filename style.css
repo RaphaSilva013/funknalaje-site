@@ -277,17 +277,17 @@ border-top:1px solid #111;
 }
 .social{
 margin-bottom:20px;
+text-align:center;
 }
 
 .social a{
 color:white;
-margin:0 12px;
-text-decoration:none;
-font-weight:bold;
-font-size:16px;
+font-size:28px;
+margin:0 15px;
 transition:0.3s;
 }
 
 .social a:hover{
 color:#ff5a00;
+transform:scale(1.2);
 }

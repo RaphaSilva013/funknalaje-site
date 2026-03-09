@@ -275,3 +275,19 @@ border-top:1px solid #111;
 }
 
 }
+.social{
+margin-bottom:20px;
+}
+
+.social a{
+color:white;
+margin:0 12px;
+text-decoration:none;
+font-weight:bold;
+font-size:16px;
+transition:0.3s;
+}
+
+.social a:hover{
+color:#ff5a00;
+}

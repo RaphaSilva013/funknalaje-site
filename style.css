@@ -449,7 +449,8 @@ transform:scale(1.05);
 }
 
 .artista-card img{
-width:100%;
+width:180px;
+height:auto;
 border-radius:10px;
 margin-bottom:10px;
 }

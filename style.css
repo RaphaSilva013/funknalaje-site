@@ -341,3 +341,18 @@ font-weight:bold;
 .btn-hero:hover{
 background:#ff4400;
 }
+@media(max-width:768px){
+
+.hero{
+height:250px;
+}
+
+.hero-content h1{
+font-size:28px;
+}
+
+.hero-content p{
+font-size:14px;
+}
+
+}

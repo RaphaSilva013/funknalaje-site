@@ -370,3 +370,88 @@ font-size:14px;
 }
 
 }
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Rapha MC atuou no portal Funk Antigo e apresentou o programa Clássicos do Funk</title>
+
+<meta name="description" content="Rapha MC atuou como diretor e apresentador no portal Funk Antigo, preservando a história do movimento funk através de programas de rádio web.">
+
+<link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<a href="../index.html">
+<img src="../logo.png" class="logo">
+</a>
+
+<div class="titulo">
+<h1>Funk na Laje</h1>
+<p>Sem dublê e sem maquiagem</p>
+</div>
+
+</header>
+
+
+<section class="noticia-completa">
+
+<article>
+
+<header>
+
+<h1>Rapha MC também atua como diretor e apresentador no portal Funk Antigo</h1>
+
+<p class="data-noticia">
+<time datetime="2016-08-15">15 de Agosto de 2016</time>
+</p>
+
+</header>
+
+
+<img src="../img/funk-antigo.jpg" class="foto-noticia">
+
+
+<p>
+Além de sua atuação como artista, Rapha MC também participou do portal e rádio web 
+<strong>Funk Antigo</strong>, dedicado à preservação da história do movimento.
+</p>
+
+<p>
+No site 
+<a href="https://www.funkantigo.com.br" target="_blank">www.funkantigo.com.br</a>, 
+Rapha MC atuou como diretor e apresentador do programa 
+<strong>Clássicos do Funk</strong>, voltado à valorização das músicas que marcaram gerações dentro da cultura funk.
+</p>
+
+<p>
+Seu primeiro trabalho como locutor em rádio web foi com o programa 
+<strong>Relíquias da Baixada</strong>, destacando artistas e músicas importantes da cena da Baixada Santista.
+</p>
+
+<br>
+
+<a href="../index.html" class="btn-noticia">
+← Voltar para o site
+</a>
+
+</article>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Funk na Laje</p>
+
+</footer>
+
+</body>
+</html>

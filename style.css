@@ -1,9 +1,17 @@
-body{
+/* RESET */
+
+*{
 margin:0;
+padding:0;
+box-sizing:border-box;
 font-family:Arial, Helvetica, sans-serif;
-background:#000;
-color:white;
 }
+
+body{
+background:#0b0b0b;
+color:#fff;
+}
+
 
 /* HEADER */
 
@@ -11,33 +19,28 @@ header{
 display:flex;
 align-items:center;
 justify-content:space-between;
-padding:20px 40px;
+padding:20px;
 background:#000;
-border-bottom:1px solid #111;
-position:sticky;
-top:0;
-z-index:1000;
+border-bottom:1px solid #222;
 }
 
 .logo{
-width:220px;
+width:80px;
 }
 
 .titulo{
-margin-left:20px;
+text-align:left;
 }
 
-header h1{
-margin:0;
-font-size:28px;
-letter-spacing:2px;
+.titulo h1{
+font-size:26px;
 }
 
-header p{
-margin:0;
+.titulo p{
 font-size:14px;
-color:#bbb;
+color:#aaa;
 }
+
 
 /* MENU */
 
@@ -46,437 +49,114 @@ color:white;
 text-decoration:none;
 margin-left:20px;
 font-size:16px;
-transition:0.3s;
 }
 
 nav a:hover{
-color:#ff5a00;
+color:#ff6600;
 }
 
-/* HERO BANNER */
-
-.hero{
-background:url("banner.jpg") center/cover no-repeat;
-height:750px;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-position:relative;
-}
-
-.hero::before{
-content:"";
-position:absolute;
-top:0;
-left:0;
-width:100%;
-height:100%;
-background:rgba(0,0,0,0.65);
-}
-
-.hero-text{
-position:relative;
-z-index:2;
-}
-
-.hero h1{
-font-size:64px;
-margin-bottom:10px;
-text-transform:uppercase;
-}
-
-.hero p{
-font-size:22px;
-margin-bottom:25px;
-}
-
-/* BOTÃO */
-
-.btn{
-background:#ff5a00;
-padding:18px 40px;
-border-radius:6px;
-text-decoration:none;
-color:white;
-font-weight:bold;
-font-size:18px;
-transition:0.3s;
-display:inline-block;
-}
-
-.btn:hover{
-background:#ff2a00;
-transform:scale(1.08);
-}
-
-/* VIDEO */
-
-.episodio{
-padding:80px 20px;
-background:#111;
-text-align:center;
-}
-
-.video{
-max-width:1000px;
-margin:auto;
-}
-
-/* EPISÓDIOS */
-
-.episodios{
-padding:80px 40px;
-background:#000;
-}
-
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
-}
-
-.card{
-transition:0.3s;
+.menu-toggle{
+display:none;
+font-size:28px;
 cursor:pointer;
 }
 
-.card img{
-width:100%;
-border-radius:8px;
-}
-
-.card:hover{
-transform:scale(1.08);
-}
-
-/* SOBRE */
-
-.sobre{
-padding:80px 40px;
-background:#111;
-text-align:center;
-}
-
-/* FOOTER */
-
-footer{
-background:#000;
-padding:20px;
-text-align:center;
-border-top:1px solid #111;
-}
-/* MOBILE */
-
-@media (max-width:768px){
-
-header{
-flex-direction:column;
-text-align:center;
-padding:20px;
-}
-
-.logo{
-width:160px;
-margin-bottom:10px;
-}
-
-.titulo{
-margin:10px 0;
-}
-
-header h1{
-font-size:22px;
-}
-
-header p{
-font-size:13px;
-}
-
-nav{
-margin-top:10px;
-}
-
-nav a{
-display:inline-block;
-margin:8px;
-font-size:14px;
-}
 
 /* HERO */
 
 .hero{
-height:500px;
-padding:20px;
+background:url("banner.jpg") center/cover no-repeat;
+height:400px;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
 }
 
-.hero h1{
-font-size:36px;
+.hero-text h1{
+font-size:42px;
+margin-bottom:10px;
 }
 
-.hero p{
-font-size:16px;
+.hero-text p{
+font-size:18px;
+margin-bottom:20px;
 }
 
 .btn{
-padding:14px 28px;
-font-size:16px;
-}
-
-/* VIDEO */
-
-.video iframe{
-height:250px;
-}
-
-/* EPISODIOS */
-
-.grid{
-grid-template-columns:1fr;
-}
-
-}
-/* MENU MOBILE */
-
-.menu-toggle{
-display:none;
-font-size:30px;
-cursor:pointer;
-}
-
-/* MOBILE */
-
-@media (max-width:768px){
-
-header{
-flex-direction:column;
-text-align:center;
-}
-
-.menu-toggle{
-display:block;
-margin-top:10px;
-}
-
-nav{
-display:none;
-flex-direction:column;
-background:#000;
-width:100%;
-}
-
-nav.active{
-display:flex;
-}
-
-nav a{
-padding:15px;
-border-top:1px solid #111;
-}
-
-}
-.social{
-margin-bottom:20px;
-text-align:center;
-}
-
-.social a{
-color:white;
-font-size:28px;
-margin:0 15px;
-transition:0.3s;
-}
-
-.social a:hover{
-color:#ff5a00;
-transform:scale(1.2);
-}
-/* FOOTER */
-
-footer{
-background:#0a0a0a;
-padding:50px 20px;
-text-align:center;
-border-top:2px solid #111;
-}
-
-.social-title{
-font-size:22px;
-margin-bottom:20px;
-letter-spacing:1px;
-}
-
-.social{
-margin-bottom:20px;
-}
-
-.social a{
-color:white;
-font-size:32px;
-margin:0 15px;
-transition:0.3s;
-}
-
-.social a:hover{
-color:#ff5a00;
-transform:scale(1.25);
-}
-
-footer p{
-font-size:14px;
-color:#aaa;
-}
-/* NOTICIAS */
-
-.noticias{
-padding:80px 20px;
-background:#111;
-text-align:center;
-}
-
-.noticia{
-max-width:700px;
-margin:auto;
-background:#000;
-padding:30px;
-border-radius:10px;
-}
-
-.noticia h3{
-margin-bottom:10px;
-}
-
-.noticia p{
-color:#ccc;
-}
-
-.btn-noticia{
-display:inline-block;
-margin-top:15px;
-padding:12px 28px;
-background:#ff5a00;
-color:white;
-text-decoration:none;
-border-radius:6px;
-font-weight:bold;
-transition:0.3s;
-}
-
-.btn-noticia:hover{
-background:#ff2a00;
-transform:scale(1.05);
-}
-/* NOTICIAS */
-
-.noticias{
-padding:80px 20px;
-background:#111;
-text-align:center;
-}
-
-.noticia{
-display:flex;
-align-items:center;
-max-width:900px;
-margin:auto;
-background:#000;
-border-radius:10px;
-overflow:hidden;
-}
-
-.noticia img{
-width:300px;
-height:auto;
-}
-
-.noticia-texto{
-padding:20px;
-text-align:left;
-}
-
-.noticia-texto h3{
-margin-top:0;
-}
-
-.noticia-texto p{
-color:#ccc;
-}
-
-.btn-noticia{
-display:inline-block;
-margin-top:10px;
-padding:10px 25px;
-background:#ff5a00;
+background:#ff6600;
+padding:12px 25px;
 color:white;
 text-decoration:none;
 border-radius:5px;
+font-weight:bold;
 }
 
-.btn-noticia:hover{
-background:#ff2a00;
-}
-@media (max-width:768px){
-
-.noticia{
-flex-direction:column;
+.btn:hover{
+background:#ff4400;
 }
 
-.noticia img{
-width:100%;
-}
 
-.noticia-texto{
-text-align:center;
-}
-  
-.artistas{
-padding:80px 20px;
-text-align:center;
-background:#111;
-}
+/* SEÇÕES */
 
-.artista-card{
-max-width:260px;
-margin:auto;
-background:#000;
-padding:20px;
-border-radius:10px;
-transition:0.3s;
-}
-
-.artista-card:hover{
-transform:scale(1.05);
-}
-
-.artista-card img{
-width:180px;
-height:auto;
-border-radius:10px;
-margin-bottom:10px;
-}
-
-.artista-redes a{
-color:white;
-font-size:24px;
-margin:0 10px;
-transition:0.3s;
-}
-
-.artista-redes a:hover{
-color:#ff5a00;
-}
-.noticias{
-padding:40px;
+section{
+padding:60px 20px;
 max-width:1200px;
 margin:auto;
 }
 
-.card-noticia{
+h2{
+margin-bottom:30px;
+text-align:center;
+font-size:28px;
+}
+
+
+/* VIDEO */
+
+.video iframe{
+border-radius:10px;
+}
+
+
+/* GRID EPISÓDIOS */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
 background:#111;
 border-radius:10px;
+overflow:hidden;
+text-align:center;
+padding-bottom:10px;
+}
+
+.thumb{
+width:100%;
+}
+
+.card p{
+padding:10px;
+font-weight:bold;
+}
+
+
+/* NOTICIAS */
+
+.noticias{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.card-noticia{
+background:#111;
 padding:20px;
-margin-bottom:25px;
-box-shadow:0 4px 10px rgba(0,0,0,0.4);
+border-radius:10px;
 }
 
 .card-noticia img{
@@ -486,26 +166,107 @@ margin-bottom:15px;
 }
 
 .card-noticia h3{
-color:#fff;
 margin-bottom:10px;
+font-size:20px;
 }
 
 .card-noticia p{
 color:#ccc;
-line-height:1.5;
+margin-bottom:15px;
+line-height:1.4;
 }
 
 .btn-noticia{
 display:inline-block;
-margin-top:10px;
+background:#ff6600;
 padding:10px 18px;
-background:#ff0055;
-color:#fff;
+border-radius:5px;
+color:white;
 text-decoration:none;
-border-radius:6px;
 font-weight:bold;
 }
 
 .btn-noticia:hover{
-background:#ff3377;
+background:#ff4400;
+}
+
+
+/* SOBRE */
+
+.sobre{
+text-align:center;
+max-width:800px;
+}
+
+.sobre p{
+color:#ccc;
+line-height:1.6;
+}
+
+
+/* FOOTER */
+
+footer{
+background:#000;
+text-align:center;
+padding:40px 20px;
+margin-top:40px;
+}
+
+.social-title{
+margin-bottom:15px;
+}
+
+.social a{
+color:white;
+font-size:26px;
+margin:0 10px;
+}
+
+.social a:hover{
+color:#ff6600;
+}
+
+footer p{
+margin-top:15px;
+color:#aaa;
+}
+
+
+/* RESPONSIVO */
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+align-items:flex-start;
+}
+
+nav{
+display:none;
+flex-direction:column;
+width:100%;
+margin-top:15px;
+}
+
+nav.active{
+display:flex;
+}
+
+nav a{
+margin:10px 0;
+}
+
+.menu-toggle{
+display:block;
+}
+
+.hero{
+height:300px;
+}
+
+.hero-text h1{
+font-size:28px;
+}
+
 }

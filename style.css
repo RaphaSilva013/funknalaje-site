@@ -350,7 +350,21 @@ height:250px;
 .hero-content h1{
 font-size:28px;
 }
+.noticia-completa{
+max-width:800px;
+margin:auto;
+padding:60px 20px;
+}
 
+.noticia-completa h1{
+margin-bottom:20px;
+}
+
+.foto-noticia{
+width:100%;
+border-radius:10px;
+margin-bottom:20px;
+}
 .hero-content p{
 font-size:14px;
 }

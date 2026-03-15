@@ -41,6 +41,15 @@ font-size:14px;
 color:#aaa;
 }
 
+.foto-artista{
+width:200px;
+height:200px;
+object-fit:cover;
+border-radius:50%;
+display:block;
+margin:20px auto;
+}
+
 
 /* MENU */
 
@@ -379,7 +388,7 @@ font-size:14px;
 
 <title>Rapha MC atuou no portal Funk Antigo e apresentou o programa Clássicos do Funk</title>
 
-<meta name="description" content="Rapha MC atuou como diretor e apresentador no portal Funk Antigo, preservando a história do movimento funk através de programas de rádio web.">
+<meta name="description" content="Rapha MC atua como diretor e apresentador no portal Funk Antigo, preservando a história do movimento funk através de programas de rádio web.">
 
 <link rel="stylesheet" href="../style.css">
 
@@ -420,14 +429,14 @@ font-size:14px;
 
 
 <p>
-Além de sua atuação como artista, Rapha MC também participou do portal e rádio web 
+Além de sua atuação como artista, Rapha MC também participa do portal e rádio web 
 <strong>Funk Antigo</strong>, dedicado à preservação da história do movimento.
 </p>
 
 <p>
 No site 
 <a href="https://www.funkantigo.com.br" target="_blank">www.funkantigo.com.br</a>, 
-Rapha MC atuou como diretor e apresentador do programa 
+Rapha MC atua como diretor e apresentador do programa 
 <strong>Clássicos do Funk</strong>, voltado à valorização das músicas que marcaram gerações dentro da cultura funk.
 </p>
 
@@ -455,3 +464,5 @@ Seu primeiro trabalho como locutor em rádio web foi com o programa
 
 </body>
 </html>
+
+  

@@ -294,3 +294,50 @@ border-radius:10px;
 padding:50px 30px;
 margin-bottom:30px;
 }
+/* HERO PRO */
+
+.hero{
+position:relative;
+background:url("banner.jpg") center/cover no-repeat;
+height:350px;
+border-radius:10px;
+overflow:hidden;
+margin-bottom:30px;
+}
+
+.hero-overlay{
+background:rgba(0,0,0,0.65);
+width:100%;
+height:100%;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.hero-content{
+text-align:center;
+}
+
+.hero-content h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+.hero-content p{
+font-size:18px;
+margin-bottom:20px;
+color:#ddd;
+}
+
+.btn-hero{
+background:#ff6600;
+padding:12px 25px;
+border-radius:6px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.btn-hero:hover{
+background:#ff4400;
+}

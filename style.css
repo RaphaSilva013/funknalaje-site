@@ -10,8 +10,8 @@ font-family:Arial, Helvetica, sans-serif;
 body{
 background:#0b0b0b;
 color:#fff;
+font-family:Arial, Helvetica, sans-serif;
 }
-
 
 /* HEADER */
 
@@ -66,11 +66,13 @@ cursor:pointer;
 
 .hero{
 background:url("banner.jpg") center/cover no-repeat;
-height:400px;
+height:320px;
 display:flex;
 align-items:center;
 justify-content:center;
 text-align:center;
+border-radius:10px;
+margin-bottom:30px;
 }
 
 .hero-text h1{
@@ -116,7 +118,7 @@ font-size:28px;
 
 .video iframe{
 width:100%;
-height:350px;
+height:360px;
 border-radius:10px;
 }
 
@@ -284,4 +286,11 @@ display:grid;
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
 gap:30px;
 text-align:center;
+}
+
+section{
+background:#111;
+border-radius:10px;
+padding:50px 30px;
+margin-bottom:30px;
 }

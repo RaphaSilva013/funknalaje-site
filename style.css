@@ -552,3 +552,25 @@ color:white;
 .redes-artista a:hover{
 color:#ff6600;
 }
+/* TITULOS PAGINA ARTISTA */
+
+.artista-perfil h2{
+margin-top:50px;
+margin-bottom:20px;
+text-align:center;
+font-size:28px;
+}
+
+.artista-perfil p{
+margin-bottom:15px;
+line-height:1.7;
+}
+
+.artista-perfil iframe{
+margin-top:20px;
+margin-bottom:30px;
+}
+
+iframe{
+margin-top:20px;
+}

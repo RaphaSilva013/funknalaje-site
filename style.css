@@ -1032,3 +1032,64 @@ margin-top:30px;
 font-size:14px;
 color:#888;
 }
+
+.contador-evento{
+text-align:center;
+margin:60px auto;
+}
+
+#contador{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:20px;
+}
+
+.tempo{
+background:#111;
+padding:20px;
+border-radius:10px;
+width:100px;
+}
+
+.tempo span{
+font-size:32px;
+font-weight:bold;
+color:#ff6600;
+display:block;
+}
+
+.tempo p{
+font-size:14px;
+color:#aaa;
+margin-top:5px;
+}
+
+.lineup-evento{
+text-align:center;
+margin:70px auto;
+max-width:900px;
+}
+
+.lineup-evento h2{
+color:#ff6600;
+margin-bottom:30px;
+}
+
+.lineup-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:15px;
+}
+
+.lineup-grid div{
+background:#111;
+padding:15px;
+border-radius:8px;
+font-weight:bold;
+}
+
+.lineup-extra{
+margin-top:30px;
+color:#ccc;
+line-height:1.6;

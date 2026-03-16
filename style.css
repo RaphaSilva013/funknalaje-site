@@ -513,10 +513,39 @@ border-radius:10px;
 }
 
 .capa-artista{
+position:relative;
 background:url("../banner.jpg") center/cover no-repeat;
-padding:120px 20px;
+padding:140px 20px;
 text-align:center;
 color:white;
+overflow:hidden;
+}
+
+.capa-artista::before{
+content:"";
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.65);
+}
+
+.capa-artista h1,
+.capa-artista p{
+position:relative;
+z-index:2;
+}
+
+.capa-artista h1{
+font-size:48px;
+font-weight:700;
+margin-bottom:10px;
+}
+
+.capa-artista p{
+font-size:18px;
+opacity:0.9;
 }
 
 .capa-artista h1{
@@ -595,4 +624,36 @@ transition:0.3s;
 background:#ff6600;
 transform:scale(1.15);
 color:white;
+}
+
+.redes-artista a,
+.redes-artista a:visited,
+.redes-artista a:link{
+color:white !important;
+text-decoration:none !important;
+}
+@media (max-width:768px){
+
+.capa-artista{
+padding-top:160px;
+padding-bottom:80px;
+}
+
+.capa-artista h1{
+font-size:38px;
+}
+
+}
+
+@media (max-width:768px){
+
+.capa-artista{
+padding-top:180px;
+padding-bottom:100px;
+}
+
+.capa-artista h1{
+font-size:36px;
+}
+
 }

@@ -317,7 +317,6 @@ max-width:900px;
 margin:auto;
 padding:40px 20px;
 }
-  
 
 section{
 background:#111;
@@ -486,4 +485,29 @@ Seu primeiro trabalho como locutor em rádio web foi com o programa
 
 </body>
 </html>
-  
+
+/* AJUSTE PÁGINA ARTISTA */
+
+header h1{
+text-align:center;
+margin-top:20px;
+margin-bottom:30px;
+}
+
+.artista-perfil h2{
+margin-top:50px;
+margin-bottom:15px;
+text-align:center;
+}
+
+.artista-perfil p{
+line-height:1.7;
+margin-bottom:18px;
+}
+
+.foto-artista{
+display:block;
+margin:30px auto;
+width:220px;
+border-radius:10px;
+}

@@ -574,3 +574,21 @@ margin-bottom:30px;
 iframe{
 margin-top:20px;
 }
+
+.redes-artista a{
+display:inline-block;
+width:50px;
+height:50px;
+line-height:50px;
+font-size:22px;
+background:#222;
+border-radius:50%;
+margin:10px;
+color:white;
+transition:0.3s;
+}
+
+.redes-artista a:hover{
+background:#ff6600;
+transform:scale(1.15);
+}

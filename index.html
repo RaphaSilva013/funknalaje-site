@@ -270,15 +270,11 @@ var menu = document.getElementById("menu");
 menu.classList.toggle("active");
 }
 
-</script>
-
-
-
 <script>
 
 const dataEvento = new Date("March 28, 2026 19:00:00").getTime();
 
-setInterval(function(){
+const contador = setInterval(function(){
 
 const agora = new Date().getTime();
 const distancia = dataEvento - agora;
@@ -296,7 +292,6 @@ document.getElementById("segundos").innerHTML = segundos;
 },1000);
 
 </script>
-
 
 </body>
 </html>

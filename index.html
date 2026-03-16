@@ -262,4 +262,60 @@ Ler matéria
 <i class="fab fa-instagram"></i>
 </a>
 
-<a href="https://www.facebook.com/profile.php?id=61588423980982" target="_
+<a href="https://www.facebook.com/profile.php?id=61588423980982" target="_blank">
+<i class="fab fa-facebook"></i>
+</a>
+
+<a href="https://www.tiktok.com/@funknalaje" target="_blank">
+<i class="fab fa-tiktok"></i>
+</a>
+
+<a href="https://www.youtube.com/@Funknalaje" target="_blank">
+<i class="fab fa-youtube"></i>
+</a>
+
+</div>
+
+<p>© 2026 Funk na Laje - Todos os direitos reservados.</p>
+
+</footer>
+
+
+
+<script>
+
+function toggleMenu(){
+var menu = document.getElementById("menu");
+menu.classList.toggle("active");
+}
+
+</script>
+
+
+
+<script>
+
+const dataEvento = new Date("March 28, 2026 19:00:00").getTime();
+
+setInterval(function(){
+
+const agora = new Date().getTime();
+const distancia = dataEvento - agora;
+
+const dias = Math.floor(distancia / (1000 * 60 * 60 * 24));
+const horas = Math.floor((distancia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+const minutos = Math.floor((distancia % (1000 * 60 * 60)) / (1000 * 60));
+const segundos = Math.floor((distancia % (1000 * 60)) / 1000);
+
+document.getElementById("dias").innerHTML = dias;
+document.getElementById("horas").innerHTML = horas;
+document.getElementById("minutos").innerHTML = minutos;
+document.getElementById("segundos").innerHTML = segundos;
+
+},1000);
+
+</script>
+
+
+</body>
+</html>

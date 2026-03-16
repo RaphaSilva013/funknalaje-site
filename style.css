@@ -977,3 +977,58 @@ font-weight:bold;
 .btn-video:hover{
 background:#ff3300;
 }
+
+/* ===================== */
+/* ESTREIA EPISÓDIO */
+/* ===================== */
+
+.estreia{
+max-width:1000px;
+margin:60px auto;
+background:#111;
+padding:40px;
+border-radius:12px;
+text-align:center;
+}
+
+.estreia h2{
+font-size:32px;
+margin-bottom:15px;
+color:#ff6600;
+}
+
+.data-evento{
+font-size:18px;
+margin-bottom:30px;
+color:#ccc;
+}
+
+.lineup ul{
+list-style:none;
+padding:0;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:10px;
+margin-top:20px;
+}
+
+.lineup li{
+background:#1a1a1a;
+padding:12px;
+border-radius:8px;
+}
+
+.equipe{
+margin-top:40px;
+}
+
+.equipe h3{
+color:#ff6600;
+margin-top:20px;
+}
+
+.avisoconvite{
+margin-top:30px;
+font-size:14px;
+color:#888;
+}

@@ -1155,3 +1155,116 @@ margin:auto;
 }
 
 }
+/* ========================= */
+/* UPGRADE VISUAL DO SITE */
+/* ========================= */
+
+body{
+background:#0b0b0b;
+font-family:Arial, Helvetica, sans-serif;
+color:#fff;
+}
+
+
+/* TITULOS */
+
+h1,h2,h3{
+letter-spacing:1px;
+}
+
+
+/* SEÇÕES */
+
+section{
+max-width:1200px;
+margin:auto;
+padding:60px 20px;
+}
+
+
+/* CARDS */
+
+.card,
+.card-noticia{
+
+background:#141414;
+border-radius:12px;
+padding:20px;
+transition:0.3s;
+box-shadow:0 8px 20px rgba(0,0,0,0.4);
+
+}
+
+
+.card:hover,
+.card-noticia:hover{
+
+transform:translateY(-6px);
+box-shadow:0 15px 35px rgba(0,0,0,0.7);
+
+}
+
+
+/* IMAGENS */
+
+.card img,
+.card-noticia img{
+
+border-radius:10px;
+
+}
+
+
+/* BOTÕES */
+
+.btn,
+.btn-noticia{
+
+background:#ff6600;
+color:white;
+padding:12px 22px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+display:inline-block;
+margin-top:10px;
+transition:0.3s;
+
+}
+
+
+.btn:hover,
+.btn-noticia:hover{
+
+background:#ff3300;
+transform:scale(1.05);
+
+}
+nav a{
+
+padding:8px 12px;
+border-radius:6px;
+transition:0.3s;
+
+}
+
+nav a:hover{
+
+background:#ff6600;
+
+}
+.artista-card{
+
+background:#141414;
+padding:20px;
+border-radius:12px;
+text-align:center;
+transition:0.3s;
+
+}
+
+.artista-card:hover{
+
+transform:scale(1.05);
+
+}

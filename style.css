@@ -960,10 +960,9 @@ border-radius:10px;
 }
 
 .edicao img{
-max-width:900px;
-margin:auto;
-display:block;
-border-radius:10px;
+width:100%;
+height:auto;
+border-radius:12px;
 }
 
 .btn-video{
@@ -1365,4 +1364,30 @@ display:none;
 
 .hero{
 background:none;
+}
+.contador{
+display:flex;
+justify-content:center;
+gap:12px;
+margin-top:25px;
+flex-wrap:wrap;
+}
+
+.contador-item{
+background:#111;
+padding:15px;
+border-radius:10px;
+width:70px;
+text-align:center;
+}
+
+.contador-numero{
+font-size:26px;
+font-weight:bold;
+color:#ff6600;
+}
+
+.contador-label{
+font-size:12px;
+color:#aaa;
 }

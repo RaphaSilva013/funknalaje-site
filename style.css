@@ -511,3 +511,44 @@ margin:30px auto;
 width:220px;
 border-radius:10px;
 }
+
+.capa-artista{
+background:url("../banner.jpg") center/cover no-repeat;
+padding:120px 20px;
+text-align:center;
+color:white;
+}
+
+.capa-artista h1{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.artista-perfil{
+max-width:900px;
+margin:auto;
+padding:50px 20px;
+}
+
+.foto-artista{
+display:block;
+margin:30px auto;
+width:220px;
+border-radius:50%;
+border:4px solid #ff6600;
+}
+
+.redes-artista{
+text-align:center;
+margin-top:20px;
+}
+
+.redes-artista a{
+font-size:28px;
+margin:10px;
+color:white;
+}
+
+.redes-artista a:hover{
+color:#ff6600;
+}

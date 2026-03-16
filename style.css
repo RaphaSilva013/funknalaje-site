@@ -773,3 +773,49 @@ border-radius:5px;
 .btn-artista:hover{
 background:#ff3300;
 }
+/* AJUSTE IMAGENS ARTISTAS */
+
+.card-artista img{
+width:100%;
+max-width:300px;
+height:auto;
+margin:auto;
+display:block;
+}
+  
+grid-artistas{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,300px));
+gap:30px;
+justify-content:center;
+}
+
+.video iframe{
+max-width:900px;
+margin:auto;
+display:block;
+}
+
+.card-noticia img{
+width:100%;
+max-width:600px;
+margin:auto;
+display:block;
+border-radius:8px;
+}
+
+img{
+max-width:100%;
+height:auto;
+}
+
+/* VIDEO DESTAQUE */
+
+.video iframe{
+width:100%;
+max-width:900px;
+height:500px;
+margin:auto;
+display:block;
+border-radius:10px;
+}

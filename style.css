@@ -1136,3 +1136,22 @@ display:block;
 transform:scale(1.08);
 background:#1a1a1a;
 }
+
+/* AJUSTE DO BANNER PARA PC */
+
+@media (min-width: 1024px){
+
+.hero{
+height:auto;
+padding:0;
+}
+
+.banner-site{
+width:100%;
+max-height:600px;
+object-fit:contain;
+display:block;
+margin:auto;
+}
+
+}

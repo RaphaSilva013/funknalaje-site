@@ -1786,3 +1786,58 @@ font-size:24px;
 }
 
 }
+/* BLOCO ARTISTAS E EQUIPE */
+
+.titulo-artistas{
+margin-top:40px;
+padding:0 25px;
+font-size:22px;
+}
+
+/* LISTA DE ARTISTAS */
+
+.lista-artistas{
+list-style:none;
+padding:20px 25px;
+margin:15px 20px;
+background:#111;
+border-radius:12px;
+line-height:1.8;
+}
+
+.lista-artistas li{
+margin-bottom:5px;
+}
+
+
+/* BLOCO EQUIPE */
+
+.equipe{
+padding:20px 25px;
+margin:20px;
+background:#111;
+border-radius:12px;
+line-height:1.6;
+}
+
+.equipe h3{
+color:#ff6600;
+margin-top:15px;
+font-size:18px;
+}
+
+.equipe p{
+margin-bottom:10px;
+color:#ddd;
+}
+
+
+/* TEXTO AVISO */
+
+.avisoconvite{
+padding:0 25px;
+margin-top:15px;
+color:#aaa;
+font-size:14px;
+text-align:center;
+}

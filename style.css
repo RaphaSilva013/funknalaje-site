@@ -1359,3 +1359,10 @@ font-size:14px;
 color:#aaa;
 margin-top:5px;
 }
+.hero::after{
+display:none;
+}
+
+.hero{
+background:none;
+}

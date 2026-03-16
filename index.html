@@ -272,9 +272,11 @@ menu.classList.toggle("active");
 
 <script>
 
+document.addEventListener("DOMContentLoaded", function(){
+
 const dataEvento = new Date("March 28, 2026 19:00:00").getTime();
 
-const contador = setInterval(function(){
+function atualizarContador(){
 
 const agora = new Date().getTime();
 const distancia = dataEvento - agora;
@@ -284,12 +286,18 @@ const horas = Math.floor((distancia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
 const minutos = Math.floor((distancia % (1000 * 60 * 60)) / (1000 * 60));
 const segundos = Math.floor((distancia % (1000 * 60)) / 1000);
 
-document.getElementById("dias").innerHTML = dias;
-document.getElementById("horas").innerHTML = horas;
-document.getElementById("minutos").innerHTML = minutos;
-document.getElementById("segundos").innerHTML = segundos;
+document.getElementById("dias").textContent = dias;
+document.getElementById("horas").textContent = horas;
+document.getElementById("minutos").textContent = minutos;
+document.getElementById("segundos").textContent = segundos;
 
-},1000);
+}
+
+atualizarContador();
+
+setInterval(atualizarContador,1000);
+
+});
 
 </script>
 

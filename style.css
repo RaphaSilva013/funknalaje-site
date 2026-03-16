@@ -1728,3 +1728,61 @@ font-size:26px;
 }
 
 }
+/* CONTADOR EPISÓDIO */
+
+.contador-evento{
+text-align:center;
+margin:60px auto;
+padding:20px;
+}
+
+#contador{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:30px;
+margin-top:25px;
+flex-wrap:wrap;
+}
+
+.tempo{
+background:#111;
+padding:20px;
+border-radius:12px;
+width:100px;
+text-align:center;
+border:2px solid #ff6600;
+}
+
+.tempo span{
+font-size:36px;
+font-weight:bold;
+color:#ff6600;
+display:block;
+}
+
+.tempo p{
+font-size:14px;
+color:#aaa;
+margin-top:6px;
+}
+
+
+/* MOBILE */
+
+@media (max-width:768px){
+
+#contador{
+gap:15px;
+}
+
+.tempo{
+width:70px;
+padding:15px;
+}
+
+.tempo span{
+font-size:24px;
+}
+
+}

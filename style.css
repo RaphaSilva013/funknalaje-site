@@ -1633,3 +1633,98 @@ font-weight:bold;
 font-size:12px;
 color:#aaa;
 }
+
+/* CONTADOR EVENTO GRANDE */
+
+.contador-evento{
+text-align:center;
+padding:50px 20px;
+}
+
+.titulo-estreia{
+font-size:28px;
+margin-bottom:10px;
+}
+
+.info-evento{
+color:#bbb;
+margin-bottom:30px;
+}
+
+.contador{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.contador-box{
+background:#111;
+border:2px solid #ff6600;
+border-radius:12px;
+padding:20px;
+width:90px;
+}
+
+.contador-box span{
+font-size:36px;
+font-weight:bold;
+color:#ff6600;
+display:block;
+}
+
+.contador-box p{
+margin-top:5px;
+font-size:13px;
+color:#aaa;
+}
+
+
+/* BOTÃO VIDEO */
+
+.botao-video{
+margin-top:30px;
+}
+
+.btn-video{
+background:#ff6600;
+color:white;
+padding:14px 25px;
+border-radius:10px;
+text-decoration:none;
+font-weight:bold;
+display:inline-block;
+}
+
+.btn-video:hover{
+background:#ff3300;
+}
+
+
+/* LISTA ARTISTAS */
+
+.lista-artistas{
+list-style:none;
+padding:0;
+margin-top:25px;
+}
+
+.lista-artistas li{
+margin:5px 0;
+}
+
+
+/* MOBILE */
+
+@media (max-width:768px){
+
+.contador-box{
+width:70px;
+padding:15px;
+}
+
+.contador-box span{
+font-size:26px;
+}
+
+}

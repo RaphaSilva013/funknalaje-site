@@ -76,7 +76,7 @@ cursor:pointer;
 .hero{
 background:url("banner.jpg") center center no-repeat;
 background-size:cover;
-height:420px;
+height:60vh;
 display:flex;
 align-items:center;
 justify-content:center;

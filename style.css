@@ -297,6 +297,29 @@ gap:30px;
 text-align:center;
 }
 
+.artista-perfil h1{
+text-align:center;
+margin-bottom:30px;
+}
+  
+.artista-perfil h2{
+margin-top:40px;
+margin-bottom:15px;
+}
+
+.artista-perfil p{
+line-height:1.6;
+margin-bottom:15px;
+}
+
+.artista-perfil{
+max-width:900px;
+margin:auto;
+padding:40px 20px;
+}
+  
+
+  
 section{
 background:#111;
 border-radius:10px;
@@ -464,5 +487,4 @@ Seu primeiro trabalho como locutor em rádio web foi com o programa
 
 </body>
 </html>
-
   

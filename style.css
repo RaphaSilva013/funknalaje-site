@@ -713,3 +713,8 @@ border-radius:5px;
 .btn-artista:hover{
 background:#ff3300;
 }
+
+.artista-perfil iframe{
+margin-top:20px;
+margin-bottom:30px;
+}

@@ -1093,3 +1093,36 @@ font-weight:bold;
 margin-top:30px;
 color:#ccc;
 line-height:1.6;
+.redes-projeto{
+text-align:center;
+margin:60px auto;
+}
+
+.redes-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+gap:20px;
+max-width:600px;
+margin:auto;
+}
+
+.redes-grid a{
+background:#111;
+padding:20px;
+border-radius:10px;
+text-decoration:none;
+color:white;
+transition:0.3s;
+}
+
+.redes-grid i{
+font-size:30px;
+color:#ff6600;
+margin-bottom:10px;
+display:block;
+}
+
+.redes-grid a:hover{
+transform:scale(1.08);
+background:#1a1a1a;
+}

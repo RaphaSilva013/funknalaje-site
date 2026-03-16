@@ -820,6 +820,12 @@ display:block;
 border-radius:10px;
 }
 
+@media (max-width:768px){
+
+.video iframe{
+height:250px;
+}
+
 /* VIDEO YOUTUBE MODERNO */
 
 .video-container{

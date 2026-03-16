@@ -118,6 +118,36 @@ O episódio será lançado em breve nas plataformas digitais.
 
 </section>
 
+<section class="contador-evento">
+
+<h2>⏳ Contagem para a gravação do Episódio #01</h2>
+
+<div id="contador">
+
+<div class="tempo">
+<span id="dias"></span>
+<p>Dias</p>
+</div>
+
+<div class="tempo">
+<span id="horas"></span>
+<p>Horas</p>
+</div>
+
+<div class="tempo">
+<span id="minutos"></span>
+<p>Min</p>
+</div>
+
+<div class="tempo">
+<span id="segundos"></span>
+<p>Seg</p>
+</div>
+
+</div>
+
+</section>
+
 
 <section class="edicao">
 
@@ -354,4 +384,58 @@ menu.classList.toggle("active");
 </script>
 
 </body>
+
+<script>
+
+const dataEvento = new Date("March 28, 2026 19:00:00").getTime();
+
+const contador = setInterval(function(){
+
+const agora = new Date().getTime();
+const distancia = dataEvento - agora;
+
+const dias = Math.floor(distancia / (1000 * 60 * 60 * 24));
+const horas = Math.floor((distancia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+const minutos = Math.floor((distancia % (1000 * 60 * 60)) / (1000 * 60));
+const segundos = Math.floor((distancia % (1000 * 60)) / 1000);
+
+document.getElementById("dias").innerHTML = dias;
+document.getElementById("horas").innerHTML = horas;
+document.getElementById("minutos").innerHTML = minutos;
+document.getElementById("segundos").innerHTML = segundos;
+
+},1000);
+
+</script>
+
+<section class="lineup-evento">
+
+<h2>🔥 Lineup Episódio de Estreia</h2>
+
+<div class="lineup-grid">
+
+<div>MC Gugu</div>
+<div>MC Diegão Pesadão</div>
+<div>MC Flávio DMC</div>
+<div>MC Ninho</div>
+<div>MC San</div>
+<div>MC Mano Will</div>
+<div>MC Pikeno da VDS</div>
+<div>MC Martelo</div>
+<div>MC Kakis</div>
+<div>MC Didi</div>
+<div>MC Paulinho do Ilhéus</div>
+<div>MC Buia</div>
+
+</div>
+
+<p class="lineup-extra">
+
+🎤 Apresentação: Rapha MC  
+🎧 DJ: Thiago Original  
+🎥 Audiovisual: Rodjhay  
+
+</p>
+
+</section>
 </html>

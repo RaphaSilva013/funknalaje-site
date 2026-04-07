@@ -357,3 +357,33 @@ footer {
 .info h3 {
     margin-bottom: 10px;
 }
+.edicao {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.container-edicao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CARD */
+.card-episodio {
+    display: flex;
+    background: #111;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 700px;
+    width: 100%;
+}
+
+.thumb {
+    width: 300px;
+    object-fit: cover;
+}
+
+.info {
+    padding: 20px;
+    text-align: left;
+}

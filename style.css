@@ -37,8 +37,12 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 
 </header>
 
-<!-- HERO LIMPO -->
-<section class="hero"></section>
+.hero {
+    background: url('banner.jpg') center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
 
 <!-- LANÇAMENTO -->
 <section class="lancamento">

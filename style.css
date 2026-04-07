@@ -197,26 +197,3 @@ nav a {
     height: 450px;
     border: none;
 }
-
-/* NOTÍCIAS */
-.noticias {
-    padding: 40px 20px;
-}
-
-.card-noticia {
-    background: #111;
-    padding: 15px;
-    margin-bottom: 20px;
-}
-
-/* FOOTER */
-footer {
-    text-align: center;
-    padding: 20px;
-}
-
-.social a {
-    margin: 0 10px;
-    color: #fff;
-    font-size: 20px;
-}

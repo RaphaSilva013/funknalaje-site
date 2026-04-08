@@ -726,3 +726,63 @@ footer {
 .overlay-capa p {
     color: #ccc;
 }
+    /* ARTISTAS */
+.artistas {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.subtitulo {
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+/* GRID */
+.grid-artistas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* CARD */
+.card-artista {
+    background: #111;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.card-artista:hover {
+    transform: scale(1.05);
+}
+
+/* IMG PADRÃO */
+.card-artista img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* NOME */
+.card-artista h3 {
+    margin: 15px 0 5px;
+}
+
+/* BOTÃO */
+.card-artista a {
+    display: inline-block;
+    margin: 10px 0 20px;
+    padding: 10px 20px;
+    background: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* HOVER BOTÃO */
+.card-artista a:hover {
+    background: #c0392b;
+}

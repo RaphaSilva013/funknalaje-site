@@ -815,3 +815,17 @@ blockquote {
     .card-materia {
     position: relative;
 }
+.vazio {
+    background: transparent;
+    box-shadow: none;
+}
+.destaque-artista {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.destaque-artista p {
+    margin: 15px 0;
+}

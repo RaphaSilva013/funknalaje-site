@@ -519,3 +519,47 @@ footer {
     text-decoration: none;
     border-radius: 5px;
 }
+/* EDIÇÕES */
+.edicoes {
+    padding: 40px 20px;
+}
+
+.grid-edicoes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* CARD */
+.card-edicao {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    display: block;
+}
+
+.card-edicao img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* OVERLAY */
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background: rgba(0,0,0,0.7);
+}
+
+/* HOVER */
+.card-edicao:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* FUTURO */
+.futuro {
+    opacity: 0.5;
+}

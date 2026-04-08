@@ -701,3 +701,28 @@ footer {
     }
 
 }
+/* CAPA COM IMAGEM */
+.capa-gugu {
+    background: url('../img/gugu-bld.jpg') center/cover no-repeat;
+    height: 300px;
+    position: relative;
+}
+
+/* ESCURECER FUNDO */
+.overlay-capa {
+    background: rgba(0,0,0,0.6);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TEXTO CAPA */
+.overlay-capa h1 {
+    font-size: 36px;
+}
+
+.overlay-capa p {
+    color: #ccc;
+}

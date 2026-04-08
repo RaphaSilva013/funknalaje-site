@@ -198,15 +198,11 @@ trazendo artistas para contar histórias reais e performar ao vivo.
 </footer>
 
 <script>
-function toggleMenu(){
-var menu = document.getElementById("menu");
-menu.classList.toggle("active");
-}
-<script>
-function toggleMenu(){
-    var menu = document.getElementById("menu");
-    menu.classList.toggle("active");
-}
+document.addEventListener("DOMContentLoaded", function() {
+    window.toggleMenu = function() {
+        document.getElementById("menu").classList.toggle("active");
+    }
+});
 </script>
 </body>
 </html>

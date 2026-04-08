@@ -792,3 +792,23 @@ blockquote {
     margin: 20px 0;
     font-style: italic;
 }
+/* CARD IMAGEM MATÉRIA */
+.card-materia {
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-materia img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+    @media (max-width: 768px) {
+
+    .card-materia img {
+        height: 200px;
+    }
+
+}

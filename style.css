@@ -617,3 +617,87 @@ footer {
     }
 
 }
+    /* CAPA */
+.capa-artista {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to bottom, #000, #111);
+}
+
+.capa-artista h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.capa-artista p {
+    color: #ccc;
+}
+
+/* PERFIL */
+.artista-perfil {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+/* FOTO */
+.foto-artista {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: -100px auto 20px;
+    border: 4px solid #000;
+}
+
+/* TEXTOS */
+.artista-perfil p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.artista-perfil h2 {
+    margin-top: 30px;
+}
+
+/* REDES */
+.redes-artista {
+    margin-top: 20px;
+}
+
+.redes-artista a {
+    font-size: 22px;
+    margin-right: 10px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.redes-artista a:hover {
+    color: #e74c3c;
+}
+
+/* IFRAME */
+.artista-perfil iframe {
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+    .foto-artista {
+        width: 150px;
+        height: 150px;
+        margin-top: -70px;
+    }
+
+    .capa-artista h1 {
+        font-size: 26px;
+    }
+
+    .artista-perfil p {
+        font-size: 16px;
+    }
+
+}

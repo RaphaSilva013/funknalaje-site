@@ -578,3 +578,42 @@ footer {
 .card-edicao:hover img {
     filter: brightness(70%);
 }
+/* PÁGINA DE MATÉRIA */
+.materia {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* TÍTULO */
+.materia h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* TEXTO */
+.materia p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* IMAGEM */
+.img-materia {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+    @media (max-width: 768px) {
+
+    .materia h1 {
+        font-size: 22px;
+    }
+
+    .materia p {
+        font-size: 16px;
+    }
+
+}

@@ -786,3 +786,9 @@ footer {
 .card-artista a:hover {
     background: #c0392b;
 }
+blockquote {
+    border-left: 4px solid #e74c3c;
+    padding-left: 15px;
+    margin: 20px 0;
+    font-style: italic;
+}

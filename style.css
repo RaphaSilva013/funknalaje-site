@@ -1028,3 +1028,22 @@ nav {
     padding: 5px 10px;
     border-radius: 5px;
 }
+.btn-whatsapp {
+    display: inline-block;
+    background: #25D366;
+    color: #fff;
+    padding: 14px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.btn-whatsapp:hover {
+    background: #1ebe5d;
+}
+
+.whatsapp-box {
+    text-align: center;
+    margin: 40px 0;
+}

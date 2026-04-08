@@ -953,3 +953,33 @@ body {
     border-radius: 5px;
     font-weight: bold;
 }
+/* CAPA CLEAN ESTILO SPOTIFY */
+.capa-clean {
+    text-align: center;
+    padding: 60px 20px 30px;
+    background: #000;
+}
+
+/* FOTO REDONDA */
+.foto-artista {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid #e74c3c;
+}
+
+/* NOME */
+.capa-clean h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* DESCRIÇÃO */
+.capa-clean p {
+    color: #ccc;
+}
+    .foto-artista {
+    box-shadow: 0 0 25px rgba(231,76,60,0.6);
+}

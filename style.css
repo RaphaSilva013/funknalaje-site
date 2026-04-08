@@ -812,3 +812,6 @@ blockquote {
     }
 
 }
+    .card-materia {
+    position: relative;
+}

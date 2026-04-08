@@ -893,9 +893,21 @@ blockquote {
 .destaque {
     border: 2px solid #e74c3c;
 }
-
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: #fff;
+}
 /* CTA FINAL */
 .cta-final {
     text-align: center;
     padding: 50px 20px;
+}
+.btn-voltar {
+    color: #fff;
+    text-decoration: none;
+    background: #e74c3c;
+    padding: 8px 15px;
+    border-radius: 5px;
 }

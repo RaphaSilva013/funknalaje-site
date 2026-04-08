@@ -983,3 +983,43 @@ body {
     .foto-artista {
     box-shadow: 0 0 25px rgba(231,76,60,0.6);
 }
+    /* BOTÃO HAMBURGUER */
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* MENU NORMAL */
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+    .menu-toggle {
+        display: block;
+        color: #fff;
+    }
+
+    nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        background: #111;
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+
+    nav.active {
+        display: flex;
+    }
+}
